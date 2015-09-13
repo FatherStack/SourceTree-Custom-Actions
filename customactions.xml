@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<ArrayOfCustomAction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <CustomAction>
+    <Caption>List --assume-unchanged</Caption>
+    <Target>C:\opt\Sourcetree-Custom-Actions\list--assume_unchanged.bat</Target>
+    <Parameters>$REPO</Parameters>
+    <OpenInSeparateWindow>true</OpenInSeparateWindow>
+    <ShowFullOutput>true</ShowFullOutput>
+  </CustomAction>
+  <CustomAction>
+    <Caption>Update-index--assume-unchanged</Caption>
+    <Target>C:\opt\Sourcetree-Custom-Actions\update-index--assume-unchanged.bat</Target>
+    <Parameters>$REPO $FILE</Parameters>
+    <OpenInSeparateWindow>true</OpenInSeparateWindow>
+    <ShowFullOutput>true</ShowFullOutput>
+  </CustomAction>
+  <CustomAction>
+    <Caption>Undo all --assume-unchanged </Caption>
+    <Target>C:\opt\Sourcetree-Custom-Actions\undo_all--assume-unchanged.bat</Target>
+    <Parameters>$REPO</Parameters>
+    <OpenInSeparateWindow>true</OpenInSeparateWindow>
+    <ShowFullOutput>true</ShowFullOutput>
+  </CustomAction>
+  <CustomAction>
+    <Caption>Undo last commit --mixed</Caption>
+    <Target>C:\opt\Sourcetree-Custom-Actions\undo_last_commit--mixed.bat</Target>
+    <Parameters>$REPO</Parameters>
+    <OpenInSeparateWindow>true</OpenInSeparateWindow>
+    <ShowFullOutput>true</ShowFullOutput>
+  </CustomAction>
+  <CustomAction>
+    <Caption>Undo last commit --soft</Caption>
+    <Target>C:\opt\Sourcetree-Custom-Actions\undo_last_commit--soft.bat</Target>
+    <Parameters>$REPO</Parameters>
+    <OpenInSeparateWindow>true</OpenInSeparateWindow>
+    <ShowFullOutput>true</ShowFullOutput>
+  </CustomAction>
+</ArrayOfCustomAction>
